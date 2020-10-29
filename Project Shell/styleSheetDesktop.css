@@ -1,0 +1,38 @@
+
+<style>
+
+.main-heading{
+	
+}
+
+.col1{
+	display: flex;
+
+}
+
+ .media{
+ 	display: flex;
+ 	align-items: flex-start;
+
+
+ }
+
+.media-img{
+	width: 25%;
+	margin-right: 1em;
+}
+
+
+.media-text{
+	display: flex;
+	flex-direction: column;
+	width: 50%;
+}
+
+.footer{
+
+	background-color: teal;
+}
+
+
+</style>
