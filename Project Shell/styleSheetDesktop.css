@@ -1,12 +1,22 @@
 
 <style>
 
-.main-heading{
-	
+
+h1.main-title{
+	text-align: center; 
+	font-size: 250%;
+}
+
+h3.footer-title{
+	text-color:white;
+	font-family:Roboto,sans-serif;
 }
 
 .col1{
 	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+
 
 }
 
@@ -29,9 +39,33 @@
 	width: 50%;
 }
 
-.footer{
+.top{
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
+	color:white;
+	background-color:black;
+	text-align:center;
+	margin:0;
+	padding:0;
 
-	background-color: teal;
+}
+
+
+.footer{
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
+	color:white;
+	background-color:black;
+	text-align:center;
+
+
+
+}
+
+a.hf-link{
+	color:white;
 }
 
 
