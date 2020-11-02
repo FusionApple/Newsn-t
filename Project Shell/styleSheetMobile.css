@@ -2,7 +2,6 @@
 
 
 
-
 .top{
 	display:flex;
 	flex-direction:column;
@@ -11,10 +10,11 @@
 	color:white;
 	text-align:center;
 
+
 }
 
 .top h1{
-	font-size:250%;
+	font-size:300%;
 	display:inline;
 	margin-bottom:0em;
 }
@@ -23,11 +23,18 @@
 .menu{
 	display:flex;
 	flex-direction:column;
-	align-content:center;
+	justify-content:space-around;
+	flex-wrap:wrap;
 	padding-left:5%;
 	padding-right:5%;
 	padding-bottom:20px;
 }
+
+div.menu a{
+		padding-left:15px;
+		padding-right:15px;
+}
+
 
 top a, footer a, a:visited, a:link{
 	color:white;
@@ -69,6 +76,43 @@ article p{
 	text-indent:15px
 }
 
+
+.footer a:hover, .top a:hover{
+	color:gray;
+}
+
 article h3{
 	padding-top:15px;
+}
+
+
+.media a:link, .media a:visited{
+	color:black;
+}
+
+a:hover{
+	color:gray;
+}
+
+.main{
+	display:flex;
+	flex-direction:column;
+	max-width:100%;
+}
+
+.col2-img{
+	max-width:100%;
+}
+
+.col2{
+	border-top:2px solid black;
+	display:flex;
+	flex: 1 1 auto;
+	flex-direction:column;
+	flex-wrap:wrap;
+	align-items:flex-start;
+	padding-left:15px;
+	padding-right:15px;
+
+
 }
