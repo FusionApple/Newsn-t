@@ -90,6 +90,12 @@ article h3{
 	color:black;
 }
 
+.media-text{
+	font-family: Tahoma, Geneva, sans-serif;
+	margin-top:5px;
+	margin-bottom:5px;
+}
+
 a:hover{
 	color:gray;
 }
