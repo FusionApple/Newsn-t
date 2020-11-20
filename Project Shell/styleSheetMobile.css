@@ -11,13 +11,20 @@
 	text-align:center;
 
 
-}
+} 
 
 .top h1{
 	font-size:300%;
 	display:inline;
 	margin-bottom:0em;
+	margin-top:.5em;
 }
+
+.top p{
+	margin-top:.25em;
+	margin-bottom:.5em;
+}
+
 
 
 .menu{
@@ -31,6 +38,7 @@
 }
 
 div.menu a{
+		margin-top:.25em;
 		padding-left:15px;
 		padding-right:15px;
 }
@@ -122,3 +130,8 @@ a:hover{
 
 
 }
+
+.current {
+	background-color:#606060;
+	padding-left:2px;
+	padding-right:2px;

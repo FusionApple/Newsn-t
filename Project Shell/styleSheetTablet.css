@@ -17,6 +17,13 @@
 	font-size:300%;
 	display:inline;
 	margin-bottom:0em;
+	margin-top:.5em;
+
+}
+
+.top p{
+	margin-top:.25em;
+	margin-bottom:.5em;
 }
 
 
@@ -31,6 +38,7 @@
 }
 
 div.menu a{
+		margin-top:.25em;
 		padding-left:15px;
 		padding-right:15px;
 }
@@ -131,3 +139,8 @@ text-decoration:none;
 
 
 }
+
+.current {
+	background-color:#606060;
+	padding-left:1px;
+	padding-right:1px;
