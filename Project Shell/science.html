@@ -12,7 +12,8 @@
 
 <body>
 	<div class ="top">
-		<h1>Science</h1>
+		<h1>Newsn't</h1>
+		<p id='date'></p>
 		<div class="menu">
 			<a href='index.html'>Home</a>
 			<a href='arts.html'>Arts</a>
@@ -22,7 +23,6 @@
 			<a href='sports.html'>Sports</a>
 			<a href='politics.html'>Politics</a>
 			<a href='science.html' class = "current">Science</a>
-			<a href='comments.html'>Comments</a>
 		</div>
 
 	</div>
@@ -30,7 +30,7 @@
 	<div class="main">
 	<div class="col3">
 
-	<h2>Featured in Science</h2>
+	<h1>Featured in Science</h1>
 
 
 
@@ -41,6 +41,41 @@
 				<h3>New Scientific Discovery: The Universe is a marble.</h3>
 
 				<p>Scientists at NASA have recently uncovered the most shocking discovery in history. The universe originally thought to be continuously expanding is actually contained within a marble. Much like the popular movie Men In Black it is theorized that there are a vast number of universes currently residing in separate marbles which exist within an ‘Origin’ universe.</p>
+
+
+				<div class = "comments" id = "science1">
+					<div class = "text">
+
+						<h3>Comments</h3>
+
+						<p class = "name">Dennis Bollettino</p>
+						<p>Wow, I cannot believe that happened!</p>
+
+					</div>
+
+					<form id = "science1F">
+						<fieldset>
+
+						<legend>Add a Comment:</legend>
+
+						<p>
+							<label>Name:</label>
+							<input type = "text" id = "name" placeholder="Enter your name."/>
+						</p>
+
+
+							<label>Comment here:</label>
+						<p>
+							<textarea id = "comment" name = "comment" rows="5" placeholder="Enter a comment."></textarea>
+						</p>
+
+
+						<input type = 'submit' id= "submit"/>
+						
+						</fieldset>
+					</form>
+
+				</div>
 			</div>
 		</div>
 	</div>
@@ -59,7 +94,6 @@
 				<br><a href='sports.html'>Sports</a>
 				<br><a href='politics.html'>Politics</a>
 				<br><a href='science.html'>Science</a>
-				<br><a href='comments.html'>Comments</a>
 			<p>
 		
 		<a href ='#top'>Back to top</a>
@@ -69,7 +103,7 @@
 </div>
 
 
-
+<script src="script.js"></script>
 </body>
 
-<html>
+</html>

@@ -142,6 +142,7 @@ article{
 	padding-bottom:20px;
 	padding-left:10%;
 	padding-right:10%;
+	font-family: Tahoma, Geneva, sans-serif;
 }
 
 article p{
@@ -171,4 +172,27 @@ article h3{
 
 .current {
 	background-color:#484848;
+}
+
+div.comments{
+	background-color:black;
+	color:white;
+	padding:15px;
+	border:solid black 1px;
+	padding-top: 0em;
+}
+
+p.name{
+	font-weight:bold;
+	margin-bottom:-.5em;
+}
+
+form {
+	border:solid black 1px;
+	background-color:WhiteSmoke;
+	color:black;
+}
+
+textarea#comment{
+	width:100%;
 }
