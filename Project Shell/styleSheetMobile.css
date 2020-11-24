@@ -58,6 +58,7 @@ top a, footer a, a:visited, a:link{
 	padding-bottom:20px;
 	padding-left:15px;
 	padding-right:15px;
+	font-family: Tahoma, Geneva, sans-serif;
 }
 
 .media-img{
@@ -99,12 +100,6 @@ article h3{
 	color:black;
 }
 
-.media-text{
-	font-family: Tahoma, Geneva, sans-serif;
-	margin-top:5px;
-	margin-bottom:5px;
-}
-
 a:hover{
 	color:gray;
 }
@@ -128,6 +123,7 @@ a:hover{
 	align-items:flex-start;
 	padding-left:15px;
 	padding-right:15px;
+	font-family: Tahoma, Geneva, sans-serif;
 
 
 }
@@ -161,4 +157,8 @@ form {
 
 textarea#comment{
 	width:100%;
+}
+
+.col3{
+	font-family: Tahoma, Geneva, sans-serif;
 }
