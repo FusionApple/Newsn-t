@@ -169,3 +169,10 @@ textarea#comment{
 .col3{
 	font-family: Tahoma, Geneva, sans-serif;
 }
+
+#weather{
+	width:70%;
+	text-align:center;
+	margin-left:20%;
+	margin-bottom:10%;
+}
