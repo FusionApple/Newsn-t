@@ -180,6 +180,15 @@ textarea#comment{
 	width:100%;
 }
 
+form#feedback textarea{
+	width:80%;
+}
+
+form div#second{
+	display:none;
+}
+
+
 .col3{
 	font-family: Tahoma, Geneva, sans-serif;
 	display:flex;
@@ -369,6 +378,14 @@ textarea#comment{
 	width:100%;
 }
 
+form#feedback textarea{
+	width:80%;
+}
+
+form div#second{
+	display:none;
+}
+
 .col3{
 	font-family: Tahoma, Geneva, sans-serif;
 }
@@ -554,9 +571,22 @@ form {
 	color:black;
 }
 
+form#feedback div.second{
+	display:hidden;
+}
+
+form div#second{
+	display:none;
+}
+
 textarea#comment{
 	width:100%;
 }
+
+form#feedback textarea{
+	width:80%;
+}
+
 
 .col3{
 	font-family: Tahoma, Geneva, sans-serif;

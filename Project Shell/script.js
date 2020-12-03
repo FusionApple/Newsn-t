@@ -156,3 +156,43 @@ if(document.title == "Home | Newsn't")
 	});
 
 }
+
+
+
+// deals with user feedback form
+
+if(document.title == "Contact Us | Newsn't")
+{
+		const form =  document.querySelector('#feedback ');
+
+
+
+
+		form.addEventListener('submit', (e) =>{
+
+			e.preventDefault();//prevents the form from refreshing
+
+				if(form.querySelector('div#first').style.display == 'none')
+				{
+					form.querySelector('#name').value = "";
+					form.querySelector('#email').value = "";
+					form.querySelector('#feedback').value = "";
+
+					form.querySelector('div#first').style.display = 'inline';
+					form.querySelector('div#second').style.display = 'none';
+				}
+				else
+				{
+					form.querySelector('div#first').style.display = 'none';
+					form.querySelector('div#second').style.display = 'inline';
+				}
+
+
+
+		
+	});
+
+
+
+
+}
