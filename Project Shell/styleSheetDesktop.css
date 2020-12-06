@@ -168,6 +168,14 @@ div.comments{
 	padding-top: 0em;
 }
 
+div.ctitle{
+	background-color:black;
+	color:white;
+	padding:15px;
+	border:solid black 1px;
+	padding-top: 0em;
+}
+
 p.name{
 	font-weight:bold;
 	margin-bottom:-.5em;
@@ -389,6 +397,15 @@ div.comments{
 	width:100%;
 }
 
+div.ctitle{
+	background-color:black;
+	color:white;
+	padding:15px;
+	padding-top: 0em;
+	border:solid black 1px;
+	width:100%;
+}
+
 p.name{
 	font-weight:bold;
 	margin-bottom:-.5em;
@@ -590,6 +607,15 @@ a:hover{
 
 
 div.comments{
+	background-color:black;
+	color:white;
+	padding:15px;
+	padding-top: 0em;
+	border:solid black 1px;
+	width:100%;
+}
+
+div.ctitle{
 	background-color:black;
 	color:white;
 	padding:15px;

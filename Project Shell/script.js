@@ -187,12 +187,17 @@ if(document.title == "Contact Us | Newsn't")
 					form.querySelector('div#second').style.display = 'inline';
 				}
 
+	
 
-
-		
 	});
 
+}
 
-
-
+function hide(id) {
+	var box = document.getElementById(id);
+	if (box.style.display == 'none') {
+		box.style.display = 'initial'
+	} else {
+		box.style.display = 'none'
+	}
 }
