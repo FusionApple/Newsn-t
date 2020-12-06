@@ -100,7 +100,7 @@
 
 }
 
-div.menu a{
+.menu a{
 		margin-top:.25em;
 		padding-left:15px;
 		padding-right:15px;
@@ -277,7 +277,7 @@ and (max-width:998px) {
 
 .menu{
 	display:flex;
-	flex-direction:row;
+	flex-direction:column;
 	justify-content:space-around;
 	flex-wrap:wrap;
 	padding-left:5%;
@@ -285,10 +285,12 @@ and (max-width:998px) {
 	padding-bottom:20px;
 }
 
-div.menu a{
+.menu a{
 		margin-top:.25em;
 		padding-left:15px;
 		padding-right:15px;
+		margin-left:auto;
+		margin-right:auto;
 }
 
 
@@ -515,7 +517,7 @@ and (max-width:549px) {
 	padding-bottom:20px;
 }
 
-div.menu a{
+.menu a{
 		margin-top:.25em;
 		padding-left:15px;
 		padding-right:15px;
@@ -631,8 +633,8 @@ div.media-text h3 a:hover{
 
 .current {
 	background-color:#606060;
-	margin-left:40%;
-	margin-right:40%;
+	margin-left:auto;
+	margin-right:auto;
 
 }
 
