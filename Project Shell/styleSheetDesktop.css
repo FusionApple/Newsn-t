@@ -44,6 +44,7 @@
 .media-img#desktop{
 	width: 25%;
 	margin-right: 1em;
+	border:1px solid black;
 }
 
 .media-img#mobile{
@@ -55,6 +56,12 @@
 	flex-direction: column;
 	color: black;
 }
+
+.media-text p{
+	text-indent:20px;
+}
+
+
 
 .top h1{
 	font-size:400%;
@@ -166,6 +173,7 @@ div.comments{
 	padding:15px;
 	border:solid black 1px;
 	padding-top: 0em;
+	display:none;
 }
 
 div.ctitle{
@@ -213,17 +221,21 @@ form div#second{
 	margin-bottom:10%;
 }
 
+h3 a{
+	text-decoration:none;
+}
 
 
-
-
+div.media-text h3 a:hover{
+	color:gray;
+}
 
 }
 
 
 
 @media only screen 
-and (min-width:400px) 
+and (min-width:550px) 
 and (max-width:998px) {
   
 
@@ -305,6 +317,7 @@ top a, footer a, a:visited, a:link{
 
 .media-img#mobile{
 	width:80%;
+	border:1px solid black;
 }
 
 .media-text{
@@ -314,9 +327,10 @@ top a, footer a, a:visited, a:link{
 	align-items:center;
 }
 
-.media-text h3{
-
+.media-text p{
+	text-indent:20px;
 }
+
 
 
 .footer{
@@ -354,6 +368,10 @@ article h3{
 }
 
 a:hover{
+	color:gray;
+}
+
+div.media-text h3 a:hover{
 	color:gray;
 }
 
@@ -395,6 +413,7 @@ div.comments{
 	padding-top: 0em;
 	border:solid black 1px;
 	width:100%;
+	display:none;
 }
 
 div.ctitle{
@@ -448,7 +467,7 @@ form div#second{
 
 
 @media only screen 
-and (max-width:399px) {
+and (max-width:549px) {
   
 	
 	.col1{
@@ -526,6 +545,7 @@ top a, footer a, a:visited, a:link{
 
 .media-img#mobile{
 	width:80%;
+	border:1px solid black;
 }
 
 .media-text{
@@ -535,6 +555,13 @@ top a, footer a, a:visited, a:link{
 	align-items:center;
 }
 
+.media-text p{
+	text-indent:20px;
+}
+
+.media-text h3{
+	text-align:center;
+}
 
 .footer{
 	display:flex;
@@ -574,6 +601,10 @@ a:hover{
 	color:gray;
 }
 
+div.media-text h3 a:hover{
+	color:gray;
+}
+
 .main{
 	display:flex;
 	flex-direction:column;
@@ -600,8 +631,8 @@ a:hover{
 
 .current {
 	background-color:#606060;
-	padding-left:2px;
-	padding-right:2px;
+	margin-left:40%;
+	margin-right:40%;
 
 }
 
@@ -613,6 +644,7 @@ div.comments{
 	padding-top: 0em;
 	border:solid black 1px;
 	width:100%;
+	display:none;
 }
 
 div.ctitle{

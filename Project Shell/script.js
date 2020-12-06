@@ -193,11 +193,19 @@ if(document.title == "Contact Us | Newsn't")
 
 }
 
-function hide(id) {
+function hide(button, id) {
 	var box = document.getElementById(id);
-	if (box.style.display == 'none') {
-		box.style.display = 'initial'
-	} else {
-		box.style.display = 'none'
+	var e = document.getElementById(button);
+	
+	if(box.style.display != 'inline')
+	{
+		box.style.display = 'inline';
+		e.innerHTML = 'Hide Comments';
 	}
+	else
+	{
+		box.style.display = 'none';
+		e.innerHTML = 'Show Comments';
+	}
+
 }
